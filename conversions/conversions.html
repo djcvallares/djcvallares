@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversion Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Conversion Tool</h1>
+    <p>Effortlessly convert between units</p>
+  </header>
+  <main>
+    <div class="converter">
+      <label for="inputValue">Enter Value:</label>
+      <input type="number" id="inputValue" placeholder="e.g., 100">
+      
+      <label for="conversionType">Choose Conversion:</label>
+      <select id="conversionType">
+        <option value="cToF">Celsius to Fahrenheit</option>
+        <option value="fToC">Fahrenheit to Celsius</option>
+        <option value="mToFt">Meters to Feet</option>
+        <option value="ftToM">Feet to Meters</option>
+      </select>
+
+      <button id="convertBtn" class="btn-modern">Convert</button>
+      <p id="result">Result: <span>-</span></p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Conversion Tool. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
